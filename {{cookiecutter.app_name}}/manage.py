@@ -6,7 +6,7 @@ import subprocess
 from flask.ext.script import Manager, Shell, Server
 from flask.ext.migrate import MigrateCommand
 
-from {{cookiecutter.app_name}}.app import create_app
+from {{cookiecutter.app_name}}.factory import create_app
 from {{cookiecutter.app_name}}.user.models import User
 from {{cookiecutter.app_name}}.settings import DevConfig, ProdConfig
 from {{cookiecutter.app_name}}.database import db

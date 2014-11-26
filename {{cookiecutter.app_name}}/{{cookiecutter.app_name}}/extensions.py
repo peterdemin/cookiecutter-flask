@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Extensions module. Each extension is initialized in the app factory located
-in app.py
+in factory.py
 """
 
 from flask.ext.bcrypt import Bcrypt
